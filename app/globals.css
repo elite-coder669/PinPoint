@@ -51,10 +51,7 @@ html, body {
   gap: 0;
 }
 
-/* HARD EDGES */
-* {
-  border-radius: 0 !important;
-}
+/* Auth page elements inherit their own border-radius */
 
 /* TYPOGRAPHY */
 .display-heavy {
