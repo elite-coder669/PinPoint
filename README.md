@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PinPoint AI: Precision UI/UX Assembly Engine
 
-## Getting Started
+**PinPoint** is a high-end AI SaaS designed for **Logic-First Designers** and **Product Architects**. Unlike traditional AI website builders that suffer from "Regeneration Fatigue," PinPoint uses a modular, block-based assembly engine to generate production-ready, zero-debt React code.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 The Core Problem We Solve
+**Regeneration Fatigue:** Most AI UI tools rebuild the entire page when a user asks for a small change, leading to broken layouts and lost progress.
+**The PinPoint Solution:** **Surgical Edits.** We treat the UI as a graph of isolated blocks. If you change the Hero, the Footer stays exactly as it was.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack (The "Sleek Studio" Architecture)
+* **Frontend:** Next.js 16 (App Router), Tailwind CSS, Framer Motion, Lucide React.
+* **State Management:** React Context (Lean Provider Pattern).
+* **AI Orchestration:** NVIDIA Developer Program (NIM) utilizing:
+    * **Llama-3.1-Nemotron-70B:** For high-reasoning initial generation.
+    * **Nemotron-3-Ultra:** For high-speed surgical edits.
+    * **Codestral-22B:** For FIM (Fill-In-the-Middle) code refinement.
+* **Styling:** "Zero-Debt" Tailwind—semantic, responsive-first, and design-token driven.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Key Features
 
-To learn more about Next.js, take a look at the following resources:
+### 1. The Modular Canvas (Current Implementation)
+* **Sleek Studio UI:** A minimalist, "Chrome-less" editor that puts the user's work center stage.
+* **Viewport Toggle:** Instant transition between Desktop and Mobile views with fluid Framer Motion transitions.
+* **Infinity Dot-Grid:** A professional blueprint background for engineering precision.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Surgical Edit Engine (In Development)
+* **Block Isolation:** The ability to target a specific UI section (Hero, Pricing, FAQ) for modification without affecting neighboring blocks.
+* **Contextual "Bridge" Logic:** AI-driven generation of transition components that visually link top and bottom sections seamlessly.
+* **Shadow DOM Preview:** Safe rendering of AI-generated JSX/Tailwind strings.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. High-Conversion Storefront
+* **Premium Aesthetic:** Glassmorphism, tight typography (`tracking-tighter`), and high-impact "Innovator" styling.
+* **Dynamic Showcase:** Integrated video/demo frames to build immediate user trust.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Structure
+* `app/page.tsx` - High-converting landing page entry point.
+* `app/editor/page.tsx` - The main Software/Studio workspace.
+* `components/home.tsx` - Marketing and Hero components.
+* `context/EditorContext.tsx` - Global state for code generation and AI status.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛣 Roadmap
+- [x] High-End Landing Page Design (UI Lock)
+- [x] Sleek Studio Editor Layout (UI Lock)
+- [ ] Implement Modular State (Array of Blocks)
+- [ ] Connect NVIDIA NIM API (Server-side Route Handlers)
+- [ ] Implement "Surgical Edit" Prompt Logic
+- [ ] Launch on Product Hunt
+
+---
+*Built with ❤️ by Vamsi Krishna.*

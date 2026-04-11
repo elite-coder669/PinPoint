@@ -1,0 +1,34 @@
+{
+    "id":"chatcmpl-988c7b9445d42f59",
+    "object":"chat.completion",
+    "created":1775723752,
+    "model":"google/gemma-4-31b-it",
+    "choices":[
+        {
+            "index":0,
+            "message":{
+                "role":"assistant",
+                "content":null,
+                "refusal":null,
+                "annotations":null,
+                "audio":null,"function_call":null,
+                "tool_calls":[],
+                "reasoning":"*   Input: An empty prompt (or rather, a prompt containing only a placeholder/empty space).\n    *   Goal: Provide a helpful, engaging response to prompt the user to interact or provide a specific request.\n\n    *   Since there is no specific request, I cannot provide a specific answer.\n    *   I need to invite the user to ask a question, start a conversation, or give me a task.\n\n    *   *Option 1: Polite and Simple.* \"Hello! How can I help you today?\"\n    *   *Option 2: Capabilities-based.* \"Hi there! I'm an AI. I can help with coding, writing, analysis, or just chatting. What's on your mind?\"\n    *   *Option 3: Creative/Proactive.* \"It looks like you haven't entered a prompt yet. Feel free to ask me anything, or try one of these: [Insert examples].\"\n\n    *   Acknowledge the blank state.\n    *   Offer a variety of services (writing, coding, learning, brainstorming).\n    *   Keep it welcoming.\n\n    *   \"Hello! It looks like you haven't entered a message yet. How can I help you today?\"\n    *   \"If you're not sure where to start, here are some things I can do for you:\"\n        *   **Writing:** Emails, essays, stories, or poems.\n        *   **Coding:** Debugging,","reasoning_content":"*   Input: An empty prompt (or rather, a prompt containing only a placeholder/empty space).\n    *   Goal: Provide a helpful, engaging response to prompt the user to interact or provide a specific request.\n\n    *   Since there is no specific request, I cannot provide a specific answer.\n    *   I need to invite the user to ask a question, start a conversation, or give me a task.\n\n    *   *Option 1: Polite and Simple.* \"Hello! How can I help you today?\"\n    *   *Option 2: Capabilities-based.* \"Hi there! I'm an AI. I can help with coding, writing, analysis, or just chatting. What's on your mind?\"\n    *   *Option 3: Creative/Proactive.* \"It looks like you haven't entered a prompt yet. Feel free to ask me anything, or try one of these: [Insert examples].\"\n\n    *   Acknowledge the blank state.\n    *   Offer a variety of services (writing, coding, learning, brainstorming).\n    *   Keep it welcoming.\n\n    *   \"Hello! It looks like you haven't entered a message yet. How can I help you today?\"\n    *   \"If you're not sure where to start, here are some things I can do for you:\"\n        *   **Writing:** Emails, essays, stories, or poems.\n        *   **Coding:** Debugging,"},
+            "logprobs":null,
+            "finish_reason":"abort",
+            "stop_reason":null,
+            "token_ids":null
+            }
+        ],
+    "service_tier":null,
+    "system_fingerprint":null,
+    "usage":{
+        "prompt_tokens":15,
+        "total_tokens":331,
+        "completion_tokens":316,
+        "prompt_tokens_details":null
+        },
+    "prompt_logprobs":null,
+    "prompt_token_ids":null,
+    "kv_transfer_params":null
+    }

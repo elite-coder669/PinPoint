@@ -2,6 +2,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { 
   ChevronRight, 
@@ -122,9 +123,12 @@ export default function LandingPage() {
             <a href="#pricing" className="hover:text-black transition-colors">Enterprise</a>
           </div>
 
+          <Link href="/editor">
           <button className="hidden sm:block text-sm font-bold px-6 py-3 bg-slate-950 text-white rounded-full hover:bg-slate-800 hover:scale-105 active:scale-95 transition-all shadow-xl shadow-slate-200">
             Get Started Free
           </button>
+          </Link>
+
         </div>
       </nav>
 
